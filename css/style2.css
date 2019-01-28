@@ -1,0 +1,37 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16pt;
+}
+.jumbotron {
+    background-color: salmon;   
+    color: turquoise;
+    background-image: url('../obrazky');
+    background-repeat: no-repeat;
+    background-position: 100px ;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+h2 {
+    color: salmon;
+/*    background-color: rgb(200,200,200); */
+text-align: center; 
+border-bottom: 2px solid #1c1b1b;
+/* odsazení */
+padding-bottom: 10px;
+
+}
+h3 {
+    background-color: salmon;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 110%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+hr {
+    padding-bottom: 10px; 
+    border-bottom: 1px solid black;
+    text-align: center;
+}

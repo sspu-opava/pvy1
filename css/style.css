@@ -1,0 +1,60 @@
+*{
+    font-family: 'Roboto Slab', serif;   
+    font-size: 16pt;
+}
+.jumbotron {
+    background-color: salmon;   
+    color: turquoise;
+    background-image: url('../obrazky');
+    background-repeat: no-repeat;
+    background-position: 100px ;
+ 
+}
+/* pravidlo (rule) svázané s nadpisem h2 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    color: salmon;
+/*    background-color: rgb(200,200,200); */
+text-align: center; 
+border-bottom: 2px solid #1c1b1b;
+/* odsazení */
+padding-bottom: 10px;
+
+}
+h3 {
+    background-color: salmon;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 110%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+h3 a {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    text-decoration: none;
+
+}
+h3 a:hover {
+    color:salmon;
+    text-decoration: none;
+}
+h3:hover {
+    background-color: turquoise;
+}
+p {
+    color: 
+}
+ul {
+    color: turquoise;
+}
+hr {
+    padding-bottom: 10px; 
+    border-bottom: 1px solid black;
+    text-align: center;
+}
